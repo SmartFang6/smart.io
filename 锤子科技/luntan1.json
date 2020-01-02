@@ -1,0 +1,24 @@
+getJson({
+	"status":"success",
+	"data":[
+	{	
+		"img":"img/black_hou.jpg",
+		"h3":"坚果 Pro 3 开箱照小赛",
+		"p1":"晒开箱美图，送 LEVEL8 × PHANTACi 联名 PC 拉杆箱"
+	},
+	{
+		"img":"img/kaixiang.jpg",
+		"h3":"[开箱] 坚果 Pro3 白色开箱",
+		"p1":"白白净净~"
+	},
+	{
+		"img":"img/OS7.jpg",
+		"h3":"Smartisan OS v7.1.0 更新日志（坚果 Pro 3）",
+		"p1":"Smartisan OS v7.1.0 已于 10 月 31 日推送给坚果 Pro 3 用户。"
+	},
+	{
+		"img":"img/sj.jpg",
+		"h3":"[开箱] 纯粹的白色之美，坚果Pro3开箱",
+		"p1":"简简单单，干干净净的白。"
+	}]
+})
