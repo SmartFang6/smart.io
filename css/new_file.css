@@ -139,7 +139,7 @@ body{
 .fixedul li a{
 	color: rgba(0,0,0,.7);
 }
-.fixedul li:first-child a{
+.fixednav .active{
 	font-weight: bold;
 }
 /*用户头像*/

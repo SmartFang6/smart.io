@@ -39,7 +39,10 @@ $(function() {
 	})
 	//	显示导航详情商品
 	$(".fixedul li").mouseenter(function() {
+		$(".fixedul li").eq(0).removeClass("active")
 		$(".myhover").stop().slideDown()
+//		$(this).css("font-weight","bold").siblings("li").css("font-weight","500")
+		$(this).addClass("active").siblings("li").removeClass("active")
 		$(this).parent().parent().next(".myhover").children().eq($(this).index()).show().siblings().hide();
 	})
 	$(".fixednav").mouseleave(function() {
@@ -126,6 +129,7 @@ $(function() {
 		$(this).children().children(".job-down").toggleClass("rotate");
 		$(this).parent().siblings(".details").toggle().parent(".jone").siblings().children(".details").slideUp("fast")
 		$(this).siblings(".end0").children().toggleClass("active3")
+		$(this).parent().parent().siblings(".jone").children(".ios").children(".end0").children().removeClass("active3")
 	})
 	//app 切换language
 	$(".appNav .pull-right").hover(function() {
